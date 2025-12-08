@@ -19,8 +19,8 @@ b.	Also support Horizontal pod auto-scaler- - when container is receiving load o
 3.	Auto healing - Kubernetes controls and fix the damage. 
 a.	Kubernetes has feature of auto healing, when the container goes down or even before the container goes down, Kubernetes creates another container.
 4.	Provides enterprise level support.
+
 *K8s Architecture*
- 
 Control plane: is the one which is controlling the actions
 Data plane: is the one which is executing the actions.
 kubelet, kube-proxy, container runtime
