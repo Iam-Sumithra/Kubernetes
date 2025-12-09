@@ -1,8 +1,9 @@
 *Disadvantage of docker container.*
 1.	Single host – as it has single host one container is impacting other containers, no way that container can come up.
 2.	Lack of Auto-Healing
-      a. If a container is terminated unexpectedly, the application becomes inaccessible until someone manually restarts the container.
-  	  b. There can be hundreds of reasons for a container to fail, but expecting a developer to manually intervene each time is not practical in large-scale environments.
+   
+   a. If a container is terminated unexpectedly, the application becomes inaccessible until someone manually restarts the container.
+   b. There can be hundreds of reasons for a container to fail, but expecting a developer to manually intervene each time is not practical in large-scale environments.
 4.	No Auto scaling
 a.	Docker doesn’t provide built-in auto-scaling.
 b.	For example, if an application usually handles 10,000 users but suddenly spikes to 100,000 (like during a major event or movie release), containers must be scaled manually/automatically, (both manual and automatic is not supported)
